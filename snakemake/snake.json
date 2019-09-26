@@ -1,0 +1,7 @@
+{
+    "cluster": "sbatch --mem={cluster.mem} -c 1 -n {cluster.n}  -t {cluster.time} -o {cluster.out} -e {cluster.err} ",
+    "cluster_config": "/home/centos/merfish-parameters/snakemake/clusterconfig.json",
+    "nodes": 1000,
+    "latency_wait": 120,
+    "restart_times": 2
+}

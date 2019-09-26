@@ -1,0 +1,40 @@
+{
+    "__default__" : {
+        "time" : "24:00:00",
+        "n" : 1,
+        "mem" : 3000,
+        "out" : "~/%j.stdout.txt",
+        "err" : "~/%j.stderr.txt"
+    },
+    "DeconvolutionPreprocess" : {
+        "time" : "3:30:00",
+        "mem" : 3000
+    },
+    "FiducialCorrelationWarp" : {
+        "time" : "00:25:00",
+        "mem" : 1000
+    },
+    "PlotPerformance" : {
+        "time" : "80:00:00"
+    },
+    "GenerateMosaic" : {
+        "time" : "20:00:00",
+        "mem" : 8000
+    },
+    "Decode" : {
+        "time" : "60:00:00",
+        "mem" : 4000
+    },
+    "AdaptiveFilterBarcodes" : {
+        "time" : "60:00:00",
+        "mem" : 5000
+    },
+    "ExportBarcodes" : {
+        "time" : "1:00:00",
+        "mem": 5000
+    },
+    "PartitionBarcodes" : {
+        "time" : "1:00:00",
+        "mem": 5000
+    }
+}
