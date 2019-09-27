@@ -257,7 +257,7 @@
             "module": "merlin.analysis.filterbarcodes",
             "parameters": {
                 "decode_task": "Decode",
-                "run_after_task": "DeconvolutionPreprocess"
+                "run_after_task": "Optimize10"
             }
         },
         {
